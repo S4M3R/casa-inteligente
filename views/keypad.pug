@@ -1,0 +1,39 @@
+html(lang="es" dir="ltr")
+  head
+    meta(charset="utf-8")
+    title SAMER HOME
+    link(rel="stylesheet" href="/static/keypad.css")
+  body
+    .keypad
+      h1#numero= "."
+      table
+        tr
+          td
+            button(onclick="press(1)").key 1
+          td
+            button(onclick="press(2)").key 2
+          td
+            button(onclick="press(3)").key 3
+        tr
+          td
+            button(onclick="press(4)").key 4
+          td
+            button(onclick="press(5)").key 5
+          td
+            button(onclick="press(6)").key 6
+        tr
+          td
+            button(onclick="press(7)").key 7
+          td
+            button(onclick="press(8)").key 8
+          td
+            button(onclick="press(9)").key 9
+        tr
+          td
+            button(onclick="press(10)").red.key C
+          td
+            button(onclick="press(0)").key 0
+          td
+            button(onclick="press(11)").red.key D
+      
+    script(src="/static/keypad.js")

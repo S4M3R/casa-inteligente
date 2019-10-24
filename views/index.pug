@@ -1,0 +1,36 @@
+html(lang="es" dir="ltr")
+  head
+    meta(charset="utf-8")
+    title SAMER HOME
+    link(rel="stylesheet" href="/static/index.css")
+  body
+    .menu
+      h1 HOME CENTER
+      ul
+        li
+          a(href="/led/a") LED sala de estar
+            span=`${luces.a.val ? '💡' : ''}`
+        li
+          a(href="/led/b") LED cocina
+            span=`${luces.b.val ? '💡' : ''}`
+      
+        li
+          a(href="/led/c") LED habitacion
+            span=`${luces.c.val ? '💡' : ''}`
+      
+        li
+          a(href="/puerta") PUERTA 
+            span= `${puerta.abierta ? '🔓' : '🔒'}`
+      
+        li
+          a(href="/pip")= `PIP`
+      
+        li
+          a(href="/alarma/montar") Alarma
+            span= `${alarma.montada ? '🚨' :''}` 
+      
+        li
+          a(href="/alarma/apagar")= `Apagar alarma`
+    
+        li
+          a(href="/alarma/prender")= `Encender alarma`

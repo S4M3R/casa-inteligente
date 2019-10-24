@@ -1,0 +1,40 @@
+*{
+  margin: 0px;
+}
+body{
+  background: black;
+}
+.keypad{
+  background: black;
+  width: 50%;
+  margin: auto auto;
+}
+
+.keypad h1{
+  background: white;
+  font-size: 150px;
+  color: black;
+  text-align: center;
+}
+
+.keypad table tr{
+  width: 100%;
+}
+
+
+.keypad table tr td{
+width: 33.3vw;
+}
+.key{
+  font-size: 150px;
+  width: 100%;
+  margin: 0px;
+  background: #3eb4f1;
+  color: white;
+  border: 2px solid white;
+  border-radius: 10px;
+}
+
+.red{
+  background: #f12e2c;
+}

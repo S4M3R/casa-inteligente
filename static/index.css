@@ -1,0 +1,50 @@
+*{
+  margin: 0px;
+}
+body{
+  background: black;
+}
+.menu{
+  background: black;
+  width: 50%;
+  margin: auto auto;
+}
+
+.menu h1{
+  background: white;
+  font-size: 100px;
+  color: black;
+  text-align: center;
+}
+
+.menu ul {
+  margin: 0px;
+  padding: 0px;
+  width: 100%;
+}
+.menu ul li {
+  font-size: 100px;
+  padding: auto;
+  margin-top: 10px;
+  background: #3eb4f1;
+  color: white;
+  border: 2px solid white;
+  border-radius: 10px;
+  text-decoration: none;
+  list-style: none;
+  width: 100%;
+}
+
+.menu ul li a{
+  width: 100%;
+  padding: 10px;
+  font-size: 100px;
+  padding: auto;
+  color: white;
+  text-decoration: none;
+}
+
+.menu ul li a span{
+  float:right;
+  font-size: 75px;
+}
